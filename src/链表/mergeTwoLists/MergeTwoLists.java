@@ -1,5 +1,8 @@
 package 链表.mergeTwoLists;
 
+/**
+ *  leetcode 21 合并两个有序链表
+ */
 public class MergeTwoLists {
 
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
