@@ -5,6 +5,7 @@
 1. 买股票2    leetcode 122
 2. 换酒问题   leetcode 1518
 3. 钞票支付问题
+4. 分糖果问题 leetcode 455
 
 ##### 链表
 1. 合并两个有序链表 leetcode 21
