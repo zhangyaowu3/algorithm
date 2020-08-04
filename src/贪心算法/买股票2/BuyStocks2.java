@@ -1,4 +1,4 @@
-package 贪心算法;
+package 贪心算法.买股票2;
 
 /**
  * leetcode 122 买股票2  贪心算法

@@ -1,4 +1,4 @@
-package 贪心算法;
+package 贪心算法.换酒问题;
 
 /**
  * leetcode 1518 换酒问题 贪心算法
