@@ -17,3 +17,4 @@
 3. 最小栈  leetcode 155
 4. 栈的压入弹出序列  剑指offer 31
 5. 最小的k个数 剑指 Offer 40
+6. 数据流的中位数  leetcode 295
