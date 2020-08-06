@@ -1,6 +1,10 @@
 # algorithm
 我的算法知识学习
 
+##### 动态规划
+1. 整数拆分  leetcode 343 整数拆分
+2. 爬楼梯    leetcode 70
+
 ##### 贪心算法
 1. 买股票2    leetcode 122
 2. 换酒问题   leetcode 1518
