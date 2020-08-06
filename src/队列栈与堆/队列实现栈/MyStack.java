@@ -1,4 +1,4 @@
-package 队列与栈.队列实现栈;
+package 队列栈与堆.队列实现栈;
 
 import java.util.LinkedList;
 import java.util.Queue;

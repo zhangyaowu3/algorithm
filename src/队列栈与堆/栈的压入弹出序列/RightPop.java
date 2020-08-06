@@ -1,4 +1,4 @@
-package 队列与栈.栈的压入弹出序列;
+package 队列栈与堆.栈的压入弹出序列;
 
 import java.util.Stack;
 
