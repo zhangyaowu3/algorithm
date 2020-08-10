@@ -41,7 +41,7 @@ public class MinStack {
     // 只有stack和minStack的顶部相同时，才pop
     public void pop() {
         // pop直接弹出了
-        if (stack.pop() == minStack.peek()) {
+        if (stack.pop().equals(minStack.peek())) {
             minStack.pop();
         }
     }
