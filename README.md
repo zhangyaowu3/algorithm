@@ -13,6 +13,7 @@
 5. 摇摆序列 leetcode 376
 6. 移掉k位数字 leetcode 402
 7. 跳跃游戏  leetcode 55
+8. 用最少数量的箭引爆气球  leetcode 452
 
 ##### 链表
 1. 合并两个有序链表 leetcode 21
