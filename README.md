@@ -11,6 +11,7 @@
 3. 钞票支付问题
 4. 分糖果问题 leetcode 455
 5. 摇摆序列 leetcode 376
+6. 跳跃游戏 leetcode 55
 
 ##### 链表
 1. 合并两个有序链表 leetcode 21
