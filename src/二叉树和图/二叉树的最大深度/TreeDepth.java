@@ -1,7 +1,4 @@
-package 树.二叉树的最大深度;
-
-import java.util.Deque;
-import java.util.LinkedList;
+package 二叉树和图.二叉树的最大深度;
 
 /**
  * leetcode 104 二叉树的最大深度
