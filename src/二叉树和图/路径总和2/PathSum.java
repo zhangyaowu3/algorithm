@@ -19,7 +19,7 @@ import java.util.List;
  * /  \    / \
  * 7    2  5   1
  * 返回:
- * <p>
+ *
  * [
  * [5,4,11,2],
  * [5,8,4,5]
@@ -29,9 +29,7 @@ import java.util.List;
  */
 public class PathSum {
 
-    public static void main(String[] args) {
-        List<List<Integer>> result = new ArrayList<>();
-        PathSum pathSum = new PathSum();
+    public TreeNode initTreeNode() {
         TreeNode n11 = new TreeNode(5);
         TreeNode n21 = new TreeNode(4);
         TreeNode n31 = new TreeNode(11);
@@ -51,8 +49,14 @@ public class PathSum {
         n22.right = n34;
         n34.left = nnLeft;
         n34.right = nnRight;
+        return n11;
+    }
 
-        pathSum.dfs(n11, 22, new ArrayList<>(), result);
+    public static void main(String[] args) {
+        List<List<Integer>> result = new ArrayList<>();
+        PathSum pathSum = new PathSum();
+
+        pathSum.dfs(pathSum.initTreeNode(), 22, new ArrayList<>(), result);
         System.out.println(String.valueOf(result));
     }
 
