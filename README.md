@@ -28,7 +28,9 @@
 
 ##### 递归回溯分治
 1. 子集  leetcode 78
+2. 全排列 leetcode 46
 
 ##### 二叉树与图
 1. 路径总和2    leetcode 113
 2. 二叉树的最大路径和   leetcode 124
+3. 二叉树的最小深度  leetcode 111
