@@ -36,17 +36,18 @@ public class RemoveKdigits {
         LinkedList<Character> stack = new LinkedList<Character>();
 
         for(char digit : num.toCharArray()) {
+            // 如果栈顶元素大于准备入栈的元素，则把栈顶元素删除，同时把该值入栈
             while(stack.size() > 0 && k > 0 && stack.peekLast() > digit) {
                 stack.removeLast();
                 k -= 1;
             }
             stack.addLast(digit);
         }
-
+        // 如果是从小往大开始入栈的，则把最后的几位元素删除
         for(int i=0; i<k; ++i) {
             stack.removeLast();
         }
-
+        // 避免栈中有 002000的这种情况,把首位的00去掉
         StringBuilder ret = new StringBuilder();
         boolean leadingZero = true;
         for(char digit: stack) {

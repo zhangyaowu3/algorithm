@@ -23,7 +23,7 @@ public class DivideCandy {
     public int ChildNum(int[] demandFactor, int[] candy) {
         Arrays.sort(demandFactor);
         Arrays.sort(candy);
-        // child代表已满足了几个孩子，candy代表尝试了几个糖果
+        // childNum代表已满足了几个孩子，candyNum代表尝试了几个糖果
         int childNum = 0;
         int candyNum = 0;
         // 在满足条件时，孩子指针和糖果指针都往右移动；不满足条件时，仅糖果指针往右移动
