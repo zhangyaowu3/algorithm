@@ -1,7 +1,7 @@
 package leetcode;
 
 /**
- * 392，判断子序列    双指针法
+ * 392，判断子序列    算法.双指针法
  */
 public class JudgeSubsequence {
 
