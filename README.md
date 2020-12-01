@@ -53,3 +53,6 @@
 1. 两数之和2  leetcode  167 
 2. 平方数之和 leetcode  633
 3. 反转字符串中的元音字符 leetcode  345
+4. 验证回文字符串2 leetcode  680
+5. 归并两个有序数组 leetcode  88
+6. 判断是否是环形链表 leetcode  141
