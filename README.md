@@ -56,3 +56,6 @@
 4. 验证回文字符串2 leetcode  680
 5. 归并两个有序数组 leetcode  88
 6. 判断是否是环形链表 leetcode  141
+
+##### 排序
+1. 前K个高频元素  leetcode  347
